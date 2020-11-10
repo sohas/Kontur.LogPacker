@@ -4,7 +4,9 @@ Consists of the following projects:
 
 ### Kontur.LogPacker
 
-An empty project for you to fill in.
+It is my solution for task from SCB Kontur. The essence of the task was to improve compression of big log files in comparison to gzip compressor. It was alowed to use gzip but not alowed to add external components or libraties to the project.
+
+The main idea of the solution is to find big pieces of equal sequences of bytes, then to replace the by simple masks before gzipping.
 
 ### Kontur.LogPacker.SelfCheck
 
